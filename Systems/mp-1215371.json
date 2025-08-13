@@ -1,0 +1,41 @@
+{
+  "crystal_structure": {
+    "atomic_positions": [
+      {
+        "wyckoff": "2a",
+        "element": "Ni",
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      {
+        "wyckoff": "2b",
+        "element": "Cu",
+        "x": "0",
+        "y": "0",
+        "z": "1/2"
+      },
+      {
+        "wyckoff": "8j",
+        "element": "Zr",
+        "x": "0.661189",
+        "y": "0.161189",
+        "z": "3/4"
+      }
+    ],
+    "symmetry": {
+      "crystal_system": "Tetragonal",
+      "lattice_system": "Tetragonal",
+      "hall_number": "I 4 2",
+      "international_number": 97,
+      "symbol": "I422",
+      "point_group": "422"
+    },
+    "structure_meta": {
+      "number_of_atoms": 12,
+      "density": "7.15 g·cm⁻³",
+      "dimensionality": "",
+      "possible_oxidation_states": "Unknown"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "crystal_structure": {
+    "atomic_positions": [
+      {
+        "wyckoff": "1a",
+        "element": "Cu",
+        "x": "0",
+        "y": "0",
+        "z": "0.012732"
+      },
+      {
+        "wyckoff": "1b",
+        "element": "Pd",
+        "x": "1/3",
+        "y": "2/3",
+        "z": "0.664993"
+      },
+      {
+        "wyckoff": "1c",
+        "element": "Ni",
+        "x": "2/3",
+        "y": "1/3",
+        "z": "0.322274"
+      }
+    ],
+    "symmetry": {
+      "crystal_system": "Trigonal",
+      "lattice_system": "Hexagonal",
+      "hall_number": "P 3 -2\"",
+      "international_number": 156,
+      "symbol": "P3m1",
+      "point_group": "3m"
+    },
+    "structure_meta": {
+      "number_of_atoms": 3,
+      "density": "9.76 g·cm⁻³",
+      "dimensionality": "",
+      "possible_oxidation_states": "Unknown"
+    }
+  }
+}

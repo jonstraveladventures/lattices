@@ -1,0 +1,34 @@
+{
+  "crystal_structure": {
+    "atomic_positions": [
+      {
+        "wyckoff": "1a",
+        "element": "Pt",
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      {
+        "wyckoff": "3c",
+        "element": "Ni",
+        "x": "1/2",
+        "y": "0",
+        "z": "1/2"
+      }
+    ],
+    "symmetry": {
+      "crystal_system": "Cubic",
+      "lattice_system": "Cubic",
+      "hall_number": "-P 4 2 3",
+      "international_number": 221,
+      "symbol": "Pm3̅m",
+      "point_group": "m3̅m"
+    },
+    "structure_meta": {
+      "number_of_atoms": 4,
+      "density": "12.94 g·cm⁻³",
+      "dimensionality": "",
+      "possible_oxidation_states": "Unknown"
+    }
+  }
+}

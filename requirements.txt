@@ -1,0 +1,5 @@
+pymatgen
+spglib
+plotly
+kaleido
+
