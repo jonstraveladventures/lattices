@@ -3,6 +3,5 @@ __pycache__/
 *.pyc
 Visualizations/
 Systems_unitcells/
-assets/
 .DS_Store
 

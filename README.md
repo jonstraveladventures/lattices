@@ -13,11 +13,11 @@ This project parses CIF files from `Systems/`, reduces each to its primitive uni
 
 Original (F-43m, 16 sites, ~230.99 Å³):
 
-![Ti2AlCo original](/assets/ti2alco_original.png)
+![Ti2AlCo original](assets/ti2alco_original.png)
 
 Original vs Primitive (primitive has 4 sites, ~57.75 Å³):
 
-![Ti2AlCo compare](/assets/ti2alco_compare.png)
+![Ti2AlCo compare](assets/ti2alco_compare.png)
 
 ### Quick start
 ```bash
