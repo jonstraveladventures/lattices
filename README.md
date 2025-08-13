@@ -6,8 +6,7 @@ This project parses CIF files from `Systems/`, reduces each to its primitive uni
 - Reads all `.cif` files in `Systems/`
 - Uses crystallographic symmetry to find the primitive unit cell
 - Writes the reduced cells to `Systems_unitcells/`
-- Builds interactive 3D HTML views for originals, primitives, and side-by-side comparisons into `Visualizations/`
-- Exports high-res PNGs and supports a Crystal Toolkit app for rich viewing
+- Provides a Crystal Toolkit app for rich viewing (no Plotly scripts)
 
 ### Largest original cell: Ti2AlCo
 
@@ -15,15 +14,7 @@ Crystal Toolkit comparison (Original vs Primitive):
 
 ![Ti2AlCo CT compare](assets/ti2alco_ct_compare.png)
 
-If you prefer the Plotly static renders used earlier:
-
-- Original (F-43m, 16 sites, ~230.99 Å³):
-
-![Ti2AlCo original](assets/ti2alco_original.png)
-
-- Original vs Primitive (primitive has 4 sites, ~57.75 Å³):
-
-![Ti2AlCo compare](assets/ti2alco_compare.png)
+The screenshot above was taken from the Crystal Toolkit app in this repo.
 
 ### Quick start
 ```bash
@@ -38,15 +29,12 @@ python -m pip install -r requirements.txt
 # Generate primitive CIFs
 python make_unit_cells.py
 
-# Create interactive HTML visualizations
-python visualize_lattices.py
-
-# Export PNGs (used in this README)
-python export_images.py
+# (Optional) Run Crystal Toolkit app for interactive viewing
+python ct_app.py
 ```
 
 ### Crystal Toolkit app
-Run a side-by-side viewer for originals and primitives:
+Side-by-side viewer for originals and primitives:
 ```bash
 /opt/homebrew/bin/python3.11 -m venv .venv311
 source .venv311/bin/activate
@@ -58,11 +46,9 @@ python ct_app.py
 ### File overview
 - `Systems/`: input CIFs
 - `Systems_unitcells/`: output primitive CIFs
-- `Visualizations/`: interactive Plotly HTMLs
-- `assets/`: exported PNGs
+- `assets/`: images for README
 - `make_unit_cells.py`: reduces to primitive unit cells
-- `visualize_lattices.py`: builds 3D HTMLs
-- `export_images.py`: exports PNGs for documentation
+- `ct_app.py`: Crystal Toolkit Dash app for interactive viewing
 - `ct_app.py`: Crystal Toolkit Dash app for interactive viewing
 
 ### Notes

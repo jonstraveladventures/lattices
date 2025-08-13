@@ -1,5 +1,3 @@
 pymatgen
 spglib
-plotly
-kaleido
 
